@@ -7,7 +7,7 @@ const Home = () => {
 
   useEffect(() => {
     // Fetch products from backend
-    fetch("http://localhost:5000/api/products") // or your deployed backend URL
+    fetch("https://gygnus-backend.onrender.com/api/products") // or your deployed backend URL
       .then((res) => res.json())
       .then((data) => setProducts(data))
       .catch((err) => console.error("Error fetching products:", err));
