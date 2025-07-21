@@ -1,0 +1,13 @@
+# Node
+node_modules/
+.env
+logs/
+*.log
+
+# Frontend builds
+gygnus-frontend/dist/
+gygnus-frontend/.vite/
+gygnus-frontend/node_modules/
+
+# Backend builds
+gygnus-backend/node_modules/
